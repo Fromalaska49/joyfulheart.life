@@ -21,13 +21,19 @@
 								Contact
 							</h1>
 							<br />
-							<form action="" method="post">
+							<form action="script-send-email.php" method="post">
 								<div class="row">
-									<div class="col-md-3 col-sm-12" style="text-align:left;">
-										<input type="text" name="email" placeholder="Your Email" />
+									<div class="hidden-xs col-sm-6" style="text-align:left;">
+										<input type="text" name="email" placeholder="Your Email" aria-required="true" />
 									</div>
-									<div class="col-md-3 col-sm-12" style="text-align:right;">
-										<input type="text" name="email" placeholder="Your Name" />
+									<div class="hidden-xs col-sm-6" style="text-align:right;">
+										<input type="text" name="email" placeholder="Your Name" aria-required="true" />
+									</div>
+									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
+										<input type="text" name="email" placeholder="Your Email" aria-required="true" />
+									</div>
+									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
+										<input type="text" name="email" placeholder="Your Name" aria-required="true" />
 									</div>
 								</div>
 								<br />
