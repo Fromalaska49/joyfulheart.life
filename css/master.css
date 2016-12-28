@@ -260,6 +260,19 @@ body {
 	margin: 0px 0px 15px 0px;
 }
 
+#contact-form-submit-button {
+	float:right;
+	display:inline-block;
+	margin:0px 20px 0px 0px;
+	position:relative;
+	top:-80px;
+	right:20px;
+}
+
+#contact-form-submit-button:hover, #contact-form-submit-button:active {
+	top: -83px;
+}
+
 @media (min-width: 768px) {
 	.partial-section-container {
 		display: -webkit-flex;

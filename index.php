@@ -4,7 +4,9 @@
 		<?php
 			require('common/head-includes.php');
 		?>
-        <title>The Association for Computing Machinery &mdash; UTSA</title>
+		<title>
+			Paul Greenlee Retirement
+		</title>
 	</head>
 	<body>
 		<?php
@@ -15,7 +17,7 @@
 				<div class="col-sm-12">
 					<div class="row section-container">
 						<div class="col-sm-12">
-							Interesting stuff here..
+							Short paragraph here...
 						</div>
 					</div>
 					<div class="row partial-section-container">

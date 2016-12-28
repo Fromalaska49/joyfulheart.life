@@ -4,7 +4,9 @@
 		<?php
 			require('common/head-includes.php');
 		?>
-        <title>Contact Us | Association for Computing Machinery UTSA</title>
+		<title>
+			Paul Greenlee Retirement
+		</title>
 	</head>
 	<body>
 		<?php
@@ -13,27 +15,29 @@
 		<div id="content" class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<div class="row section-container group">
+					<div class="row section-container">
 						<div class="col-sm-12">
-							<h1>Contact Us</h1>
+							<h1>
+								Contact
+							</h1>
 							<br />
-							<div class="row">
-								<div class="col-sm-8">
-									<p>
-										ACM's primary form of communication is through <a href="index#slack-container">Slack</a> at <a href="http://acm-utsa.slack.com">acm-utsa.slack.com</a>
-									</p>
+							<form action="" method="post">
+								<div class="row">
+									<div class="col-md-3 col-sm-12" style="text-align:left;">
+										<input type="text" name="email" placeholder="Your Email" />
+									</div>
+									<div class="col-md-3 col-sm-12" style="text-align:right;">
+										<input type="text" name="email" placeholder="Your Name" />
+									</div>
 								</div>
-								<div class="col-sm-4" style="text-align:center;">
-									<a href="http://acm-utsa.slack.com">
-										<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
-									</a>
+								<br />
+								<div class="row">
+									<div class="col-md-12">
+										<textarea placeholder="Your Message" style="width:100%;height:400px;"></textarea>
+									</div>
 								</div>
-							</div>
-							<br />
-							<p>
-								For any general inquiries, comments, questions, or any other business, please
-								contact us at <a href="mailto:acm.utsa@gmail.com">acm.utsa@gmail.com</a>.
-							</p>
+								<input type="submit" value="Send" id="contact-form-submit-button" />
+							<form>
 						</div>
 					</div>
 				</div>

@@ -36,6 +36,7 @@
 						</a>
 						-->
 					</div>
+					<!--
 					<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
 						<a href="mailto:acm.utsa@gmail.com" class="footer-social">
 							<div class="fa fa-envelope-square fa-3x">
@@ -50,6 +51,7 @@
 							</div>
 						</a>
 					</div>
+					-->
 					<!--
 					<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
 						<a href="http://www.facebook.com/ACM-UTSA-424006151132274/?fref=ts" class="footer-social">
