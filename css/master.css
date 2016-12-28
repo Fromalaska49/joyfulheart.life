@@ -19,6 +19,7 @@ body {
 	background-color: #00308F;/* USAF Blue*/
 	color: #ffffff;
 	height: 70px;
+	box-shadow: 0px 0px 10px -1px #000000;
 }
 
 .navbar-collapse {
@@ -213,6 +214,76 @@ body {
 	background-color: #ffffff;
 }
 
+.partial-section-container {
+	/*padding: 40px 30px;*/
+	margin: 20px -15px 20px -15px;
+	/*box-shadow: 0px 1px 11px -3px;*/
+	/*border-radius: 3px;*/
+	/*background-color: #ffffff;*/
+	
+	
+	
+}
+
+.partial-section-container>*[class*="col-"] {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-flex-shrink: 1;
+	flex-shrink: 1;
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+	padding: 0px 12px;
+}
+
+.partial-section {
+	padding: 30px;
+	margin: 0px;
+	box-shadow: 0px 1px 11px -3px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.partial-section>h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.partial-section-h-icon {
+	height: 30px;
+	margin: 0px 0px 15px 0px;
+}
+
+@media (min-width: 768px) {
+	.partial-section-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-align-items: stretch;
+		align-items: stretch;
+	}
+}
+
+@media (max-width: 767px) {
+	.partial-section-container {
+		text-align: center;
+	}
+	.partial-section {
+		margin: 0px 0px 20px 0px;
+		border-radius: 0px;
+	}
+	.section-container{
+		border-radius: 0px;
+	}
+}
+
 /* Section Titles */
 .section-container>*[class*="col-"]>h1, .section-container>*[class*="col-"]>h2, .section-container>*[class*="col-"]>h3, .section-container>*[class*="col-"]>h4, .section-container>*[class*="col-"]>h5, .section-container>*[class*="col-"]>h6 {
 	/* Indent section titles
@@ -231,7 +302,7 @@ button, input[type=button], input[type=submit], .stripe-button{
 	top: 0px; /* necessary for smooth animations */
 	box-shadow: 0px 0px 0px #000000;
 	border-style: none;
-	background-color: #1a4a86;
+	background-color: #00308F;
 	color: #ffffff;
 	padding: 10px;
 	margin: 10px;
@@ -241,8 +312,13 @@ button, input[type=button], input[type=submit], .stripe-button{
 button:hover, input[type=button]:hover, input[type=submit]:hover, .stripe-button:hover, button:active, input[type=button]:active, input[type=submit]:active, .stripe-button:active {
 	top: -3px;
 	box-shadow: 0px 3px 10px -3px #000000;
-	background-color: #1a4a86;
+	background-color: #00308F;
 	color: #ffffff;
+}
+
+.navbar-toggle:hover, .navbar-toggle:active {
+	box-shadow: 0px 0px 0px #000000;
+	top:0px;
 }
 
 input[type=image].slack-button {

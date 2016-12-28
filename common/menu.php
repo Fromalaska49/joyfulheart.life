@@ -15,9 +15,7 @@
 						</a>
 					
 					<h1>
-						Joyful
-						Heart
-						Life
+						Lt Col Paul Greenlee's Retirement
 					</h1>
 				</div> <!-- .navbar-header -->
 				<div class="collapse navbar-collapse" id="nav-collapse">
