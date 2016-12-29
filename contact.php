@@ -27,19 +27,19 @@
 										<input type="text" name="email" placeholder="Your Email" aria-required="true" />
 									</div>
 									<div class="hidden-xs col-sm-6" style="text-align:right;">
-										<input type="text" name="email" placeholder="Your Name" aria-required="true" />
+										<input type="text" name="name" placeholder="Your Name" aria-required="true" />
 									</div>
 									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
 										<input type="text" name="email" placeholder="Your Email" aria-required="true" />
 									</div>
 									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
-										<input type="text" name="email" placeholder="Your Name" aria-required="true" />
+										<input type="text" name="name" placeholder="Your Name" aria-required="true" />
 									</div>
 								</div>
 								<br />
 								<div class="row">
 									<div class="col-md-12">
-										<textarea placeholder="Your Message" style="width:100%;height:400px;"></textarea>
+										<textarea name="text" placeholder="Your Message" style="width:100%;height:400px;"></textarea>
 									</div>
 								</div>
 								<input type="submit" value="Send" id="contact-form-submit-button" />

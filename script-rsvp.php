@@ -1,12 +1,25 @@
 <?php
 $from = 'noreply@joyfulheart.life';
 
-$text = $_POST['text'];
 $to = 'fromalaska49@gmail.com';
-$subject = $_POST['subject'];
-$sender = $_POST['name'];
-
-$body = 'Sent by ' . htmlentities($sender) . '<br /><br />Email: ' . htmlentities($from) . '<br /><br />' . htmlentities($text);
+$subject = 'RSVP for Retirement Ceremony';
+$name = $_POST['name'];
+$num_attendees = '';
+$num = intval($_POST['num']);
+if($num > 1){
+	$num_attendees = 'They will be bringing ' . $num . ' attendees';
+}
+else{
+	$num_attendees = 'They did not mark any additional attendees';
+}
+$mil_access = '';
+if($_POST['mil_access']){
+	$mil_access = 'will not need to be sponsored to get on base';
+}
+else{
+	$mil_access = 'will need to be sponsored to get on base';
+}
+$body = htmlentities($name) . ' has RSVP\'d for Paul Greenlee\'s retirement ceremony. '.$num_attendees.', and '.$mil_access.'. You can contact them at ' . htmlentities($_POST['email']);
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
