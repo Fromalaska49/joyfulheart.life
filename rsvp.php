@@ -22,9 +22,16 @@
 							</h1>
 							<br />
 							<form action="script-rsvp.php" method="post">
-								<input type="text" name="email" placeholder="Your Name" style="margin:10px;" aria-required="true" />
+								<input type="text" name="name" placeholder="Your Name" style="margin:10px;" aria-required="true" />
 								<br />
 								<input type="text" name="email" placeholder="Your Email" style="margin:10px;" aria-required="true" />
+								<br />
+								<input type="text" name="num" placeholder="Number of Attendees" style="margin:10px;" aria-required="true" />
+								<br />
+								<div style="margin:10px;">
+									<input type="checkbox" name="mil_access" />
+									<label for="mil_access" style="font-weight:inherit;">I have a base pass or military ID card</label>
+								</div>
 								<br />
 								<input type="submit" value="RSVP" />
 							<form>

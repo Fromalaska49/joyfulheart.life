@@ -17,7 +17,11 @@
 				<div class="col-sm-12">
 					<div class="row section-container">
 						<div class="col-sm-12">
-							Please join us in celebrating the Air Force career of Lt Col Paul Greenlee. With the tireless support of his family, Paul has completed over 24 years of service to America as an officer and pilot. They will be stepping into the next adventure God has for them as they transition to civilian life and move to Honolulu, Hawaii where Paul will be working as a C-17 simulator instructor and enjoying more quality time with family and friends.
+							Please join us in celebrating the Air Force career of Lt Col Paul Greenlee. Paul has completed over 24 years of service to America as an officer and pilot, with the devoted support of his family. They will be stepping into the next adventure God has for them as they transition to civilian life and move to Honolulu, Hawaii where Paul will be working as a C-17 simulator instructor and enjoying more quality time with family and friends.
+						</div>
+					</div>
+					<div class="row section-container" id="home-page-cover-image">
+						<div class="col-sm-12">
 						</div>
 					</div>
 					<div class="row partial-section-container">
