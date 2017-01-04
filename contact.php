@@ -21,6 +21,10 @@
 								Contact
 							</h1>
 							<br />
+							<p>
+								If you would like to send a message to Paul and Sarah, you can send it to them below.
+							</p>
+							<br />
 							<form action="script-send-email.php" method="post">
 								<div class="row">
 									<div class="hidden-xs col-sm-6" style="text-align:left;">
