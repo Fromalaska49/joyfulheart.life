@@ -2,7 +2,7 @@
 $from = 'noreply@joyfulheart.life';
 
 $text = $_POST['text'];
-$to = 'fromalaska49@gmail.com';
+$to = 'psagreenlee@earthlink.net';
 $subject = $_POST['subject'];
 $sender = $_POST['name'];
 

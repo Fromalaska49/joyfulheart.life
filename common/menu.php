@@ -21,7 +21,7 @@
 				<div class="collapse navbar-collapse" id="nav-collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href=".">Home</a></li>
-						<li><a href="rsvp.php">RSVP</a></li>
+						<li><a href="https://einvitations.afit.edu/inv/anim.cfm?i=324454&k=0163460D7E53">RSVP</a></li>
 						<li><a href="contact.php">Contact</a></li>
 						<!-- collapse-only menu items -->
 						<!--

@@ -1,7 +1,7 @@
 <?php
 $from = 'noreply@joyfulheart.life';
 
-$to = 'fromalaska49@gmail.com';
+$to = 'Paul.Greenlee.Retirement@gmail.com';
 $subject = 'RSVP for Retirement Ceremony';
 $name = $_POST['name'];
 $num_attendees = '';
