@@ -34,10 +34,10 @@
 										<input type="text" name="name" placeholder="Your Name" aria-required="true" />
 									</div>
 									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
-										<input type="text" name="email" placeholder="Your Email" aria-required="true" />
+										<input type="text" name="m-email" placeholder="Your Email" aria-required="true" />
 									</div>
 									<div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" style="text-align:left;margin-top:10px;">
-										<input type="text" name="name" placeholder="Your Name" aria-required="true" />
+										<input type="text" name="m-name" placeholder="Your Name" aria-required="true" />
 									</div>
 								</div>
 								<br />

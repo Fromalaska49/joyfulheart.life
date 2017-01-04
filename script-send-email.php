@@ -1,19 +1,24 @@
 <?php
-$from = 'noreply@joyfulheart.life';
+$from = $_POST['email'] . $_POST['m-email'];//'noreply@joyfulheart.life';
 
 $text = $_POST['text'];
 $to = 'psagreenlee@earthlink.net';
-$subject = $_POST['subject'];
-$sender = $_POST['name'];
+//$subject = $_POST['subject'] . $_POST['m-subject'];
+$sender = $_POST['name'] . $_POST['m-email'];
 
-$body = 'Sent by ' . htmlentities($sender) . '<br /><br />Email: ' . htmlentities($from) . '<br /><br />' . htmlentities($text);
+if(strlen($text) <= 1 || strlen($sender) <= 1 || strlen($from) <= 1){
+	var_dump($_POST);
+	die('Please complete all fields of the contact form.');
+}
+
+$body = 'Sent by ' . htmlentities($sender) . '<br /><br />Email: ' . htmlentities($_POST['email']) . '<br /><br />' . htmlentities($text);
 
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= "From: " . $from . "\r\n"."X-Mailer: php";
 
 $stat = '';
-if(mail($to, $subject, $body, $headers)){
+if(mail($to, 'Message on JoyfulHeart.Life', $body, $headers)){
 	$stat = 'Your message has successfully been sent';
 }
 else{
